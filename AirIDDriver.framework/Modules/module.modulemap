@@ -1,0 +1,6 @@
+framework module AirIDDriver {
+    umbrella header "AirIDDriver.h"
+    
+    export *
+    module * { export * }
+}

@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D5B1BA5235E32CF00065FF9 /* AirIDDriver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5B1BA4235E32CF00065FF9 /* AirIDDriver.framework */; };
+		5D5B1BA7235F857C00065FF9 /* AirIDDriver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCBAB9B235DFE0800B9FF7A /* AirIDDriver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5DCBAB87235DC9E400B9FF7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBAB86235DC9E400B9FF7A /* AppDelegate.m */; };
+		5DCBAB8A235DC9E400B9FF7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBAB89235DC9E400B9FF7A /* ViewController.m */; };
+		5DCBAB8D235DC9E500B9FF7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCBAB8B235DC9E500B9FF7A /* Main.storyboard */; };
+		5DCBAB8F235DCA1100B9FF7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCBAB8E235DCA1100B9FF7A /* Assets.xcassets */; };
+		5DCBAB92235DCA1100B9FF7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCBAB90235DCA1100B9FF7A /* LaunchScreen.storyboard */; };
+		5DCBAB95235DCA1100B9FF7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBAB94235DCA1100B9FF7A /* main.m */; };
+		5DCBAB9F235E01FD00B9FF7A /* PBSmartcardUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBAB9D235E01FD00B9FF7A /* PBSmartcardUtilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D5B1BA8235F858000065FF9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5D5B1BA7235F857C00065FF9 /* AirIDDriver.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D5B1BA4235E32CF00065FF9 /* AirIDDriver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AirIDDriver.framework; sourceTree = "<group>"; };
+		5DCBAB82235DC9E200B9FF7A /* AirIDSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirIDSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCBAB85235DC9E400B9FF7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DCBAB86235DC9E400B9FF7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DCBAB88235DC9E400B9FF7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DCBAB89235DC9E400B9FF7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DCBAB8C235DC9E500B9FF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DCBAB8E235DCA1100B9FF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DCBAB91235DCA1100B9FF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DCBAB93235DCA1100B9FF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DCBAB94235DCA1100B9FF7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DCBAB9B235DFE0800B9FF7A /* AirIDDriver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AirIDDriver.framework; path = ../Certgate/Work/AireGK/AirIDDriver.framework; sourceTree = "<group>"; };
+		5DCBAB9D235E01FD00B9FF7A /* PBSmartcardUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSmartcardUtilities.m; sourceTree = "<group>"; };
+		5DCBAB9E235E01FD00B9FF7A /* PBSmartcardUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSmartcardUtilities.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DCBAB7F235DC9E200B9FF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5B1BA5235E32CF00065FF9 /* AirIDDriver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D5B1BA3235E32CE00065FF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B1BA4235E32CF00065FF9 /* AirIDDriver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DCBAB79235DC9E100B9FF7A = {
+			isa = PBXGroup;
+			children = (
+				5DCBAB9B235DFE0800B9FF7A /* AirIDDriver.framework */,
+				5DCBAB84235DC9E300B9FF7A /* AirIDSampleApp */,
+				5DCBAB83235DC9E200B9FF7A /* Products */,
+				5D5B1BA3235E32CE00065FF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DCBAB83235DC9E200B9FF7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBAB82235DC9E200B9FF7A /* AirIDSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DCBAB84235DC9E300B9FF7A /* AirIDSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				5DCBAB9E235E01FD00B9FF7A /* PBSmartcardUtilities.h */,
+				5DCBAB9D235E01FD00B9FF7A /* PBSmartcardUtilities.m */,
+				5DCBAB85235DC9E400B9FF7A /* AppDelegate.h */,
+				5DCBAB86235DC9E400B9FF7A /* AppDelegate.m */,
+				5DCBAB88235DC9E400B9FF7A /* ViewController.h */,
+				5DCBAB89235DC9E400B9FF7A /* ViewController.m */,
+				5DCBAB8B235DC9E500B9FF7A /* Main.storyboard */,
+				5DCBAB8E235DCA1100B9FF7A /* Assets.xcassets */,
+				5DCBAB90235DCA1100B9FF7A /* LaunchScreen.storyboard */,
+				5DCBAB93235DCA1100B9FF7A /* Info.plist */,
+				5DCBAB94235DCA1100B9FF7A /* main.m */,
+			);
+			path = AirIDSampleApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DCBAB81235DC9E200B9FF7A /* AirIDSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DCBAB98235DCA1100B9FF7A /* Build configuration list for PBXNativeTarget "AirIDSampleApp" */;
+			buildPhases = (
+				5DCBAB7E235DC9E200B9FF7A /* Sources */,
+				5DCBAB7F235DC9E200B9FF7A /* Frameworks */,
+				5DCBAB80235DC9E200B9FF7A /* Resources */,
+				5D5B1BA8235F858000065FF9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirIDSampleApp;
+			productName = AirIDSampleApp;
+			productReference = 5DCBAB82235DC9E200B9FF7A /* AirIDSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DCBAB7A235DC9E100B9FF7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "IDENTOS GmbH";
+				TargetAttributes = {
+					5DCBAB81235DC9E200B9FF7A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5DCBAB7D235DC9E100B9FF7A /* Build configuration list for PBXProject "AirIDSampleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DCBAB79235DC9E100B9FF7A;
+			productRefGroup = 5DCBAB83235DC9E200B9FF7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DCBAB81235DC9E200B9FF7A /* AirIDSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DCBAB80235DC9E200B9FF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCBAB92235DCA1100B9FF7A /* LaunchScreen.storyboard in Resources */,
+				5DCBAB8F235DCA1100B9FF7A /* Assets.xcassets in Resources */,
+				5DCBAB8D235DC9E500B9FF7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DCBAB7E235DC9E200B9FF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCBAB9F235E01FD00B9FF7A /* PBSmartcardUtilities.m in Sources */,
+				5DCBAB8A235DC9E400B9FF7A /* ViewController.m in Sources */,
+				5DCBAB95235DCA1100B9FF7A /* main.m in Sources */,
+				5DCBAB87235DC9E400B9FF7A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DCBAB8B235DC9E500B9FF7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DCBAB8C235DC9E500B9FF7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DCBAB90235DCA1100B9FF7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DCBAB91235DCA1100B9FF7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DCBAB96235DCA1100B9FF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DCBAB97235DCA1100B9FF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DCBAB99235DCA1100B9FF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J684S2VTXJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AireGK/**",
+					"$(PROJECT_DIR)/AireGK/AirIDDriver.framework",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AirIDSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AireGK/AirIDDriver.framework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appidkey.AirIDSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DCBAB9A235DCA1100B9FF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J684S2VTXJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AireGK/**",
+					"$(PROJECT_DIR)/AireGK/AirIDDriver.framework",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AirIDSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AireGK/AirIDDriver.framework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appidkey.AirIDSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DCBAB7D235DC9E100B9FF7A /* Build configuration list for PBXProject "AirIDSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCBAB96235DCA1100B9FF7A /* Debug */,
+				5DCBAB97235DCA1100B9FF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DCBAB98235DCA1100B9FF7A /* Build configuration list for PBXNativeTarget "AirIDSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCBAB99235DCA1100B9FF7A /* Debug */,
+				5DCBAB9A235DCA1100B9FF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DCBAB7A235DC9E100B9FF7A /* Project object */;
+}
